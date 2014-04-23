@@ -38,6 +38,13 @@ I'll go through the tabs one by one here:
 
 2. "Images" - You'll probably find yourself here quite a bit. This is where you upload images and find these images. Each image is done using a item-identifier model, where the "item" is the image, and each image is assigned an ID number, the "identifier". To use the image later on, you'll need to find the ID of the image and use that. To add an image, click on "Add Image", where you'll be asked for an "Image Title", "Image Description", and the image itself. You don't need to actually have a title or description, but it's a good practice to enter a title along with a short description (where the image belongs, what's in the image, etc).
 
+   To use images inside an article, you want to find the direct link of the image. To find that, search for the image you just uploaded, and you'll see a "link to image". Simply copy that link, go to your text editor, and click the picture button. 
+   ![Picture_Button](images/picture_button.png)
+   You'll be greeted with a prompt like this one:
+   ![Paste](images/paste.png)
+   Just paste the link you copied in here, and your picture should show up. 
+   ######FOR DEVELOPERS: I DID CHANGE THE HTML IN THE ACDIS TOOLS FOR THE IMAGES TO ACCOMMODATE THIS
+
 3. "Documents" - This is specifically used for uploading documents (papers and other pdf's). Same model as the image, input a name, title, and description. Having a title and the filename may seem redundant, but they are different things, as the filename is the name on the server, while the title is the name that users will see. I don't suggest using the dropdown unless you really don't know the name of the file, it's large and unwieldy. 
 
 4. "News" - Actually have no clue about this yet, need to fiddle around with it more. 
@@ -48,4 +55,8 @@ I'll go through the tabs one by one here:
 
 7. "Events" - No clue.
 
-8. "Publications" -  This is the stuff that you can add to a person or the front page. It follows the same idea as the people editor, but asks for a document ID. You don't need to fill in all the information, a bare minimum of 
+8. "Publications" -  This is the stuff that you can add to a person or the front page. It follows the same idea as the people editor, but asks for a document ID. You don't need to fill in all the information, a bare minimum of a file to upload and a title is needed. Again, the publications uploader won't let you input authors until the publication is uploaded, so fill in all the information possible, then find the file with search and add in the authors. 
+
+9. "Research Initiatives" - No clue, need to actually fix this.
+
+10. "Internships" - No clue. 
